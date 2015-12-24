@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffaf60">
+
+    <EditText
+        android:id="@+id/edit_view_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Which city do you want to query?" />
+
+    <EditText
+        android:id="@+id/edit_num_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the number of the location.(eg:1)" />
+
+    <TextView
+        android:id="@+id/text_view_pm25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Here's the result !"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColorHint="#6c6c6c"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/button_query_pm25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_query"
+        android:layout_gravity="center"
+        android:background="#c2c287"/>
+
+    <TextView
+        android:id="@+id/text_view_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="We only have one earth !"
+        android:textColorHint="#006000"
+        android:textSize="20dp"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#820041"
+        android:layout_gravity="center"/>
+</LinearLayout>
